@@ -1,0 +1,70 @@
+.main h1 {
+    padding: 25px;
+    flex: 1;
+    color: #4B3B2F;
+}
+
+.cards {
+    display: flex;
+    padding: 20px;
+    flex: 1;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background: #DCC5B2;
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    color: #4B3B2F;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAF7F3;
+    color: #3e332b;
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #F0E4D3;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    color: #D9A299;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #4a3f35;
+}
+
+.sidebar a:hover {
+    color: #D9A299;
+}
+
+.main-content {
+    padding: 20px;
+    flex: 1;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #D9A299;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b87b6f;
+}
